@@ -1,0 +1,11 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import vm from 'node:vm';import zlib from 'node:zlib';
+test('拡張collector: 表示画像を実QRデコーダーで読取り、投稿URL付きで送信し停止',async()=>{
+ const fixture=JSON.parse(fs.readFileSync(new URL('./test-fixtures/official-qr.json',import.meta.url)));const pixels=new Uint8ClampedArray(zlib.inflateSync(Buffer.from(fixture.rgba,'base64')));let listener,timer;const messages=[];
+ const link={href:'https://x.com/test/status/123/photo/1'},article={querySelector:sel=>sel.endsWith('time')?{closest:()=>link}:link};const image={complete:true,naturalWidth:320,currentSrc:'https://pbs.twimg.com/media/fixture?format=png',getBoundingClientRect:()=>({width:320,height:320,top:10,bottom:330,left:10,right:330}),closest:()=>article};
+ const canvas={width:0,height:0,getContext:()=>({fillRect(){},drawImage(){},getImageData:()=>({data:pixels,width:320,height:320})})};
+ const sandbox={Uint8ClampedArray,Uint8Array,URL,Blob,atob,innerHeight:800,innerWidth:1200,location:{href:'https://x.com/search?q=test'},document:{createElement:()=>canvas,querySelectorAll:()=>[image]},setInterval:fn=>{timer=fn;return 1},clearInterval:()=>{},addEventListener:()=>{},createImageBitmap:async()=>({width:320,height:320,close(){}}),chrome:{runtime:{id:'test',onMessage:{addListener:fn=>listener=fn},sendMessage:async msg=>{messages.push(msg);if(msg.type==='image')return {ok:true,data:{base64:'AA==',mime:'image/png'}};if(msg.type==='found')return {ok:true,data:{added:true}};return {ok:true,data:{}}}}}};
+ vm.createContext(sandbox);vm.runInContext(fs.readFileSync(new URL('../shadowlog-x-extension/vendor/jsQR.js',import.meta.url),'utf8'),sandbox);vm.runInContext(fs.readFileSync(new URL('../shadowlog-x-extension/collector.js',import.meta.url),'utf8'),sandbox);listener({type:'start'},{id:'test'},()=>{});
+ for(let i=0;i<10&&!messages.some(m=>m.type==='found');i++)await new Promise(r=>setImmediate(r));
+ const found=messages.find(m=>m.type==='found');assert.ok(found?.url.startsWith('https://shadowverse-wb.com/ja/deck/detail/?hash=2.2.'));assert.equal(found.post,'https://x.com/test/status/123');timer();await new Promise(r=>setImmediate(r));assert.equal(messages.filter(m=>m.type==='image').length,1);listener({type:'stop'},{id:'test'},()=>{});assert.equal(messages.at(-1).running,false);
+});
+

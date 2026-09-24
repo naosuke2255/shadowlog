@@ -1,0 +1,1 @@
+{"manifest_version":3,"name":"SHADOWLOG QR Collector","version":"1.0.0","description":"Xで表示した投稿画像のデッキQRを読み取り、ローカルのSHADOWLOGへ送ります。","permissions":["activeTab","scripting","storage"],"host_permissions":["https://pbs.twimg.com/*"],"background":{"service_worker":"worker.js","type":"module"},"action":{"default_title":"SHADOWLOG QR Collector","default_popup":"popup.html"}}

@@ -1,0 +1,13 @@
+/work/
+/outputs/*.zip
+node_modules/
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
+# User exports must not be committed
+shadowlog-matches.csv
+shadowlog-raw.json
+shadowlog-20*.json
+shadowlog-demo-*.json

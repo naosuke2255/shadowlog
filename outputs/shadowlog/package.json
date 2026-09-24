@@ -1,0 +1,10 @@
+{
+  "name": "shadowlog",
+  "version": "1.7.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test --test-isolation=none tests.mjs deck-tools.test.mjs copilot.test.mjs qr.test.mjs deck-compare.test.mjs deck-image-batch.test.mjs x-import.test.mjs extension-collector.test.mjs screen-capture.test.mjs mini.test.mjs keep-style.test.mjs"
+  }
+}

@@ -1,0 +1,4289 @@
+{
+  "schema": 1,
+  "decks": [
+    {
+      "id": "demo-d1",
+      "name": "テンポエルフ",
+      "class": "エルフ",
+      "versions": [
+        {
+          "id": "demo-v1",
+          "name": "v1",
+          "cards": [
+            {
+              "name": "検証カード01",
+              "count": 3
+            },
+            {
+              "name": "検証カード02",
+              "count": 3
+            },
+            {
+              "name": "検証カード03",
+              "count": 3
+            },
+            {
+              "name": "検証カード04",
+              "count": 3
+            },
+            {
+              "name": "検証カード05",
+              "count": 3
+            },
+            {
+              "name": "検証カード06",
+              "count": 3
+            },
+            {
+              "name": "検証カード07",
+              "count": 3
+            },
+            {
+              "name": "検証カード08",
+              "count": 3
+            },
+            {
+              "name": "検証カード09",
+              "count": 3
+            },
+            {
+              "name": "検証カード10",
+              "count": 3
+            },
+            {
+              "name": "検証カード11",
+              "count": 3
+            },
+            {
+              "name": "検証カード12",
+              "count": 3
+            },
+            {
+              "name": "検証カード13",
+              "count": 3
+            },
+            {
+              "name": "検証カード14",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "demo-v2",
+          "name": "v2",
+          "cards": [
+            {
+              "name": "検証カード01",
+              "count": 3
+            },
+            {
+              "name": "検証カード02",
+              "count": 3
+            },
+            {
+              "name": "検証カード03",
+              "count": 3
+            },
+            {
+              "name": "検証カード04",
+              "count": 3
+            },
+            {
+              "name": "検証カード05",
+              "count": 3
+            },
+            {
+              "name": "検証カード06",
+              "count": 3
+            },
+            {
+              "name": "検証カード07",
+              "count": 3
+            },
+            {
+              "name": "検証カード08",
+              "count": 3
+            },
+            {
+              "name": "検証カード09",
+              "count": 3
+            },
+            {
+              "name": "検証カード10",
+              "count": 3
+            },
+            {
+              "name": "検証カード11",
+              "count": 3
+            },
+            {
+              "name": "検証カード12",
+              "count": 3
+            },
+            {
+              "name": "検証カード13",
+              "count": 3
+            },
+            {
+              "name": "検証カード15",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "demo-d2",
+      "name": "コントロールウィッチ",
+      "class": "ウィッチ",
+      "versions": [
+        {
+          "id": "demo-v3",
+          "name": "v1",
+          "cards": [
+            {
+              "name": "検証カード01",
+              "count": 3
+            },
+            {
+              "name": "検証カード02",
+              "count": 3
+            },
+            {
+              "name": "検証カード03",
+              "count": 3
+            },
+            {
+              "name": "検証カード04",
+              "count": 3
+            },
+            {
+              "name": "検証カード05",
+              "count": 3
+            },
+            {
+              "name": "検証カード06",
+              "count": 3
+            },
+            {
+              "name": "検証カード07",
+              "count": 3
+            },
+            {
+              "name": "検証カード08",
+              "count": 3
+            },
+            {
+              "name": "検証カード09",
+              "count": 3
+            },
+            {
+              "name": "検証カード10",
+              "count": 3
+            },
+            {
+              "name": "検証カード11",
+              "count": 3
+            },
+            {
+              "name": "検証カード12",
+              "count": 3
+            },
+            {
+              "name": "検証カード13",
+              "count": 3
+            },
+            {
+              "name": "検証カード14",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "id": "demo-m000",
+      "at": "2026-09-01T10:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "エルフ",
+      "order": "先攻",
+      "win": true,
+      "turn": 6,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m001",
+      "at": "2026-09-01T11:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ロイヤル",
+      "order": "後攻",
+      "win": true,
+      "turn": 7,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m002",
+      "at": "2026-09-01T12:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ウィッチ",
+      "order": "先攻",
+      "win": true,
+      "turn": 8,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m003",
+      "at": "2026-09-01T13:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ドラゴン",
+      "order": "後攻",
+      "win": false,
+      "turn": 9,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m004",
+      "at": "2026-09-01T14:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ナイトメア",
+      "order": "先攻",
+      "win": false,
+      "turn": 10,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m005",
+      "at": "2026-09-01T15:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ビショップ",
+      "order": "後攻",
+      "win": true,
+      "turn": 11,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m006",
+      "at": "2026-09-01T16:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ネメシス",
+      "order": "先攻",
+      "win": true,
+      "turn": 12,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m007",
+      "at": "2026-09-01T17:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "エルフ",
+      "order": "後攻",
+      "win": true,
+      "turn": 6,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m008",
+      "at": "2026-09-02T10:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ロイヤル",
+      "order": "先攻",
+      "win": false,
+      "turn": 7,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m009",
+      "at": "2026-09-02T11:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ウィッチ",
+      "order": "後攻",
+      "win": false,
+      "turn": 8,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m010",
+      "at": "2026-09-02T12:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ドラゴン",
+      "order": "先攻",
+      "win": true,
+      "turn": 9,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m011",
+      "at": "2026-09-02T13:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ナイトメア",
+      "order": "後攻",
+      "win": true,
+      "turn": 10,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m012",
+      "at": "2026-09-02T14:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ビショップ",
+      "order": "先攻",
+      "win": true,
+      "turn": 11,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m013",
+      "at": "2026-09-02T15:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ネメシス",
+      "order": "後攻",
+      "win": false,
+      "turn": 12,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m014",
+      "at": "2026-09-02T16:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "エルフ",
+      "order": "先攻",
+      "win": false,
+      "turn": 6,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m015",
+      "at": "2026-09-02T17:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ロイヤル",
+      "order": "後攻",
+      "win": true,
+      "turn": 7,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m016",
+      "at": "2026-09-03T10:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ウィッチ",
+      "order": "先攻",
+      "win": true,
+      "turn": 8,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m017",
+      "at": "2026-09-03T11:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ドラゴン",
+      "order": "後攻",
+      "win": true,
+      "turn": 9,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m018",
+      "at": "2026-09-03T12:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ナイトメア",
+      "order": "先攻",
+      "win": false,
+      "turn": 10,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m019",
+      "at": "2026-09-03T13:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ビショップ",
+      "order": "後攻",
+      "win": false,
+      "turn": 11,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m020",
+      "at": "2026-09-03T14:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ネメシス",
+      "order": "先攻",
+      "win": true,
+      "turn": 12,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m021",
+      "at": "2026-09-03T15:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "エルフ",
+      "order": "後攻",
+      "win": true,
+      "turn": 6,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m022",
+      "at": "2026-09-03T16:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ロイヤル",
+      "order": "先攻",
+      "win": true,
+      "turn": 7,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m023",
+      "at": "2026-09-03T17:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ウィッチ",
+      "order": "後攻",
+      "win": false,
+      "turn": 8,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m024",
+      "at": "2026-09-04T10:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ドラゴン",
+      "order": "先攻",
+      "win": false,
+      "turn": 9,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m025",
+      "at": "2026-09-04T11:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ナイトメア",
+      "order": "後攻",
+      "win": true,
+      "turn": 10,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m026",
+      "at": "2026-09-04T12:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ビショップ",
+      "order": "先攻",
+      "win": true,
+      "turn": 11,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m027",
+      "at": "2026-09-04T13:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ネメシス",
+      "order": "後攻",
+      "win": true,
+      "turn": 12,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m028",
+      "at": "2026-09-04T14:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "エルフ",
+      "order": "先攻",
+      "win": false,
+      "turn": 6,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m029",
+      "at": "2026-09-04T15:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ロイヤル",
+      "order": "後攻",
+      "win": false,
+      "turn": 7,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m030",
+      "at": "2026-09-04T16:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ウィッチ",
+      "order": "先攻",
+      "win": true,
+      "turn": 8,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m031",
+      "at": "2026-09-04T17:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ドラゴン",
+      "order": "後攻",
+      "win": true,
+      "turn": 9,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m032",
+      "at": "2026-09-05T10:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ナイトメア",
+      "order": "先攻",
+      "win": true,
+      "turn": 10,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m033",
+      "at": "2026-09-05T11:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ビショップ",
+      "order": "後攻",
+      "win": false,
+      "turn": 11,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m034",
+      "at": "2026-09-05T12:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ネメシス",
+      "order": "先攻",
+      "win": false,
+      "turn": 12,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m035",
+      "at": "2026-09-05T13:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "エルフ",
+      "order": "後攻",
+      "win": true,
+      "turn": 6,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m036",
+      "at": "2026-09-05T14:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ロイヤル",
+      "order": "先攻",
+      "win": true,
+      "turn": 7,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m037",
+      "at": "2026-09-05T15:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ウィッチ",
+      "order": "後攻",
+      "win": true,
+      "turn": 8,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m038",
+      "at": "2026-09-05T16:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ドラゴン",
+      "order": "先攻",
+      "win": false,
+      "turn": 9,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m039",
+      "at": "2026-09-05T17:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ナイトメア",
+      "order": "後攻",
+      "win": false,
+      "turn": 10,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m040",
+      "at": "2026-09-06T10:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ビショップ",
+      "order": "先攻",
+      "win": true,
+      "turn": 11,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m041",
+      "at": "2026-09-06T11:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ネメシス",
+      "order": "後攻",
+      "win": true,
+      "turn": 12,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m042",
+      "at": "2026-09-06T12:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "エルフ",
+      "order": "先攻",
+      "win": true,
+      "turn": 6,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m043",
+      "at": "2026-09-06T13:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ロイヤル",
+      "order": "後攻",
+      "win": false,
+      "turn": 7,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m044",
+      "at": "2026-09-06T14:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ウィッチ",
+      "order": "先攻",
+      "win": false,
+      "turn": 8,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m045",
+      "at": "2026-09-06T15:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ドラゴン",
+      "order": "後攻",
+      "win": true,
+      "turn": 9,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m046",
+      "at": "2026-09-06T16:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ナイトメア",
+      "order": "先攻",
+      "win": true,
+      "turn": 10,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m047",
+      "at": "2026-09-06T17:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ビショップ",
+      "order": "後攻",
+      "win": true,
+      "turn": 11,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m048",
+      "at": "2026-09-07T10:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ネメシス",
+      "order": "先攻",
+      "win": false,
+      "turn": 12,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m049",
+      "at": "2026-09-07T11:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "エルフ",
+      "order": "後攻",
+      "win": false,
+      "turn": 6,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m050",
+      "at": "2026-09-07T12:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ロイヤル",
+      "order": "先攻",
+      "win": true,
+      "turn": 7,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m051",
+      "at": "2026-09-07T13:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ウィッチ",
+      "order": "後攻",
+      "win": true,
+      "turn": 8,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m052",
+      "at": "2026-09-07T14:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ドラゴン",
+      "order": "先攻",
+      "win": true,
+      "turn": 9,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m053",
+      "at": "2026-09-07T15:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ナイトメア",
+      "order": "後攻",
+      "win": false,
+      "turn": 10,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m054",
+      "at": "2026-09-07T16:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ビショップ",
+      "order": "先攻",
+      "win": false,
+      "turn": 11,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m055",
+      "at": "2026-09-07T17:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ネメシス",
+      "order": "後攻",
+      "win": true,
+      "turn": 12,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m056",
+      "at": "2026-09-08T10:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "エルフ",
+      "order": "先攻",
+      "win": true,
+      "turn": 6,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m057",
+      "at": "2026-09-08T11:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ロイヤル",
+      "order": "後攻",
+      "win": true,
+      "turn": 7,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m058",
+      "at": "2026-09-08T12:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ウィッチ",
+      "order": "先攻",
+      "win": false,
+      "turn": 8,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m059",
+      "at": "2026-09-08T13:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v1",
+      "class": "エルフ",
+      "opponent": "ドラゴン",
+      "order": "後攻",
+      "win": false,
+      "turn": 9,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m060",
+      "at": "2026-09-08T14:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ナイトメア",
+      "order": "先攻",
+      "win": true,
+      "turn": 10,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m061",
+      "at": "2026-09-08T15:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ビショップ",
+      "order": "後攻",
+      "win": true,
+      "turn": 11,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m062",
+      "at": "2026-09-08T16:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ネメシス",
+      "order": "先攻",
+      "win": true,
+      "turn": 12,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m063",
+      "at": "2026-09-08T17:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "エルフ",
+      "order": "後攻",
+      "win": false,
+      "turn": 6,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m064",
+      "at": "2026-09-09T10:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ロイヤル",
+      "order": "先攻",
+      "win": false,
+      "turn": 7,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m065",
+      "at": "2026-09-09T11:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ウィッチ",
+      "order": "後攻",
+      "win": true,
+      "turn": 8,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m066",
+      "at": "2026-09-09T12:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ドラゴン",
+      "order": "先攻",
+      "win": true,
+      "turn": 9,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m067",
+      "at": "2026-09-09T13:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ナイトメア",
+      "order": "後攻",
+      "win": true,
+      "turn": 10,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m068",
+      "at": "2026-09-09T14:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ビショップ",
+      "order": "先攻",
+      "win": false,
+      "turn": 11,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m069",
+      "at": "2026-09-09T15:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ネメシス",
+      "order": "後攻",
+      "win": false,
+      "turn": 12,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m070",
+      "at": "2026-09-09T16:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "エルフ",
+      "order": "先攻",
+      "win": true,
+      "turn": 6,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m071",
+      "at": "2026-09-09T17:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ロイヤル",
+      "order": "後攻",
+      "win": true,
+      "turn": 7,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m072",
+      "at": "2026-09-10T10:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ウィッチ",
+      "order": "先攻",
+      "win": true,
+      "turn": 8,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m073",
+      "at": "2026-09-10T11:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ドラゴン",
+      "order": "後攻",
+      "win": false,
+      "turn": 9,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m074",
+      "at": "2026-09-10T12:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ナイトメア",
+      "order": "先攻",
+      "win": false,
+      "turn": 10,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m075",
+      "at": "2026-09-10T13:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ビショップ",
+      "order": "後攻",
+      "win": true,
+      "turn": 11,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m076",
+      "at": "2026-09-10T14:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ネメシス",
+      "order": "先攻",
+      "win": true,
+      "turn": 12,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m077",
+      "at": "2026-09-10T15:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "エルフ",
+      "order": "後攻",
+      "win": true,
+      "turn": 6,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m078",
+      "at": "2026-09-10T16:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ロイヤル",
+      "order": "先攻",
+      "win": false,
+      "turn": 7,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m079",
+      "at": "2026-09-10T17:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ウィッチ",
+      "order": "後攻",
+      "win": false,
+      "turn": 8,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m080",
+      "at": "2026-09-11T10:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ドラゴン",
+      "order": "先攻",
+      "win": true,
+      "turn": 9,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m081",
+      "at": "2026-09-11T11:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ナイトメア",
+      "order": "後攻",
+      "win": true,
+      "turn": 10,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m082",
+      "at": "2026-09-11T12:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ビショップ",
+      "order": "先攻",
+      "win": true,
+      "turn": 11,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m083",
+      "at": "2026-09-11T13:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ネメシス",
+      "order": "後攻",
+      "win": false,
+      "turn": 12,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m084",
+      "at": "2026-09-11T14:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "エルフ",
+      "order": "先攻",
+      "win": false,
+      "turn": 6,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m085",
+      "at": "2026-09-11T15:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ロイヤル",
+      "order": "後攻",
+      "win": true,
+      "turn": 7,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m086",
+      "at": "2026-09-11T16:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ウィッチ",
+      "order": "先攻",
+      "win": true,
+      "turn": 8,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m087",
+      "at": "2026-09-11T17:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ドラゴン",
+      "order": "後攻",
+      "win": true,
+      "turn": 9,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m088",
+      "at": "2026-09-12T10:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ナイトメア",
+      "order": "先攻",
+      "win": false,
+      "turn": 10,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m089",
+      "at": "2026-09-12T11:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ビショップ",
+      "order": "後攻",
+      "win": false,
+      "turn": 11,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m090",
+      "at": "2026-09-12T12:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ネメシス",
+      "order": "先攻",
+      "win": true,
+      "turn": 12,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m091",
+      "at": "2026-09-12T13:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "エルフ",
+      "order": "後攻",
+      "win": true,
+      "turn": 6,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m092",
+      "at": "2026-09-12T14:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ロイヤル",
+      "order": "先攻",
+      "win": true,
+      "turn": 7,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m093",
+      "at": "2026-09-12T15:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ウィッチ",
+      "order": "後攻",
+      "win": false,
+      "turn": 8,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m094",
+      "at": "2026-09-12T16:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ドラゴン",
+      "order": "先攻",
+      "win": false,
+      "turn": 9,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m095",
+      "at": "2026-09-12T17:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ナイトメア",
+      "order": "後攻",
+      "win": true,
+      "turn": 10,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m096",
+      "at": "2026-09-13T10:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ビショップ",
+      "order": "先攻",
+      "win": true,
+      "turn": 11,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m097",
+      "at": "2026-09-13T11:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ネメシス",
+      "order": "後攻",
+      "win": true,
+      "turn": 12,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m098",
+      "at": "2026-09-13T12:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "エルフ",
+      "order": "先攻",
+      "win": false,
+      "turn": 6,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m099",
+      "at": "2026-09-13T13:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ロイヤル",
+      "order": "後攻",
+      "win": false,
+      "turn": 7,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m100",
+      "at": "2026-09-13T14:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ウィッチ",
+      "order": "先攻",
+      "win": true,
+      "turn": 8,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m101",
+      "at": "2026-09-13T15:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ドラゴン",
+      "order": "後攻",
+      "win": true,
+      "turn": 9,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m102",
+      "at": "2026-09-13T16:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ナイトメア",
+      "order": "先攻",
+      "win": true,
+      "turn": 10,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m103",
+      "at": "2026-09-13T17:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ビショップ",
+      "order": "後攻",
+      "win": false,
+      "turn": 11,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m104",
+      "at": "2026-09-14T10:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ネメシス",
+      "order": "先攻",
+      "win": false,
+      "turn": 12,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m105",
+      "at": "2026-09-14T11:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "エルフ",
+      "order": "後攻",
+      "win": true,
+      "turn": 6,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m106",
+      "at": "2026-09-14T12:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ロイヤル",
+      "order": "先攻",
+      "win": true,
+      "turn": 7,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m107",
+      "at": "2026-09-14T13:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ウィッチ",
+      "order": "後攻",
+      "win": true,
+      "turn": 8,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m108",
+      "at": "2026-09-14T14:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ドラゴン",
+      "order": "先攻",
+      "win": false,
+      "turn": 9,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m109",
+      "at": "2026-09-14T15:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ナイトメア",
+      "order": "後攻",
+      "win": false,
+      "turn": 10,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m110",
+      "at": "2026-09-14T16:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ビショップ",
+      "order": "先攻",
+      "win": true,
+      "turn": 11,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m111",
+      "at": "2026-09-14T17:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ネメシス",
+      "order": "後攻",
+      "win": true,
+      "turn": 12,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m112",
+      "at": "2026-09-15T10:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "エルフ",
+      "order": "先攻",
+      "win": true,
+      "turn": 6,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m113",
+      "at": "2026-09-15T11:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ロイヤル",
+      "order": "後攻",
+      "win": false,
+      "turn": 7,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m114",
+      "at": "2026-09-15T12:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ウィッチ",
+      "order": "先攻",
+      "win": false,
+      "turn": 8,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m115",
+      "at": "2026-09-15T13:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ドラゴン",
+      "order": "後攻",
+      "win": true,
+      "turn": 9,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m116",
+      "at": "2026-09-15T14:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ナイトメア",
+      "order": "先攻",
+      "win": true,
+      "turn": 10,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m117",
+      "at": "2026-09-15T15:00",
+      "deckId": "demo-d2",
+      "versionId": "demo-v3",
+      "class": "ウィッチ",
+      "opponent": "ビショップ",
+      "order": "後攻",
+      "win": true,
+      "turn": 11,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": false,
+          "redraw": "検証カード05"
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": false,
+          "redraw": "検証カード08"
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m118",
+      "at": "2026-09-15T16:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "ネメシス",
+      "order": "先攻",
+      "win": false,
+      "turn": 12,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード03",
+          "keep": false,
+          "redraw": "検証カード07"
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    },
+    {
+      "id": "demo-m119",
+      "at": "2026-09-15T17:00",
+      "deckId": "demo-d1",
+      "versionId": "demo-v2",
+      "class": "エルフ",
+      "opponent": "エルフ",
+      "order": "後攻",
+      "win": false,
+      "turn": 6,
+      "hand": [
+        {
+          "card": "検証カード01",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード02",
+          "keep": false,
+          "redraw": "検証カード06"
+        },
+        {
+          "card": "検証カード03",
+          "keep": true,
+          "redraw": ""
+        },
+        {
+          "card": "検証カード04",
+          "keep": true,
+          "redraw": ""
+        }
+      ],
+      "note": "集計検証用のダミーデータ"
+    }
+  ],
+  "notes": {},
+  "favorite": "demo-d1"
+}
