@@ -26,6 +26,19 @@ export function annotate(meta){
   const heal=meta.effect.match(/^自分のリーダーを(\d+)回復。$/);
   return {tags,cost:meta.cost,damage:plainStorm?meta.attack:direct?Number(direct[1]):null,heal:heal?Number(heal[1]):null,priority:tags.includes('疾走')?4:tags.length?3:1,note:''};
 }
+const same=(a,b)=>JSON.stringify(a)===JSON.stringify(b);
+export function refreshOfficialCards(sheet,cards){
+  const byId=new Map(cards.map(card=>[card.id,card]));let changed=0;
+  for(const deckCard of sheet.cards){
+    const oldMeta=sheet.meta[deckCard.name],fresh=byId.get(oldMeta?.id);
+    if(!fresh)throw Error(`${deckCard.name}の公式カード情報を取得できませんでした。`);
+    const oldAuto=annotate(oldMeta),newAuto=annotate(fresh),current=sheet.annotations[deckCard.name],next={...current};
+    for(const key of ['tags','cost','damage','heal','priority'])if(same(current[key],oldAuto[key]))next[key]=newAuto[key];
+    if(!same({cost:oldMeta.cost,attack:oldMeta.attack,effect:oldMeta.effect,evo:oldMeta.evo,related:oldMeta.related},{cost:fresh.cost,attack:fresh.attack,effect:fresh.effect,evo:fresh.evo,related:fresh.related}))changed++;
+    sheet.meta[deckCard.name]=fresh;sheet.annotations[deckCard.name]=next;
+  }
+  sheet.refreshedAt=new Date().toISOString();return changed;
+}
 export const remaining=(card,used)=>Math.max(0,card.count-(used[card.name]||0));
 export function changeUsed(sheet,name,delta){
   const c=sheet.cards.find(c=>c.name===name);if(!c||!Number.isInteger(delta))throw Error('カードが見つかりません。');

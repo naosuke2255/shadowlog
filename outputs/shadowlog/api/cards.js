@@ -13,12 +13,12 @@ function send(status,body,headers={}){
 export async function handleCards(request,loadCards=getCards){
   if(request.method!=='GET')return send(405,{error:'GET only'},{Allow:'GET'});
 
-  const raw=new URL(request.url).searchParams.get('ids')??'';
+  const params=new URL(request.url).searchParams,raw=params.get('ids')??'',fresh=params.get('fresh')==='1';
   const ids=raw.split(',');
   if(ids.length>40||ids.some(id=>!/^\d{8}$/.test(id)))return send(400,{error:INVALID_IDS});
 
   try{
-    return send(200,{cards:await loadCards(ids)});
+    return send(200,{cards:await loadCards(ids,{fresh})},fresh?{'Cache-Control':'no-store'}:{});
   }catch{
     return send(502,{error:FETCH_ERROR});
   }

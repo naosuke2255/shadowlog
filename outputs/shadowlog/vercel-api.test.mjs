@@ -3,16 +3,19 @@ import assert from 'node:assert/strict';
 import {handleCards} from './api/cards.js';
 
 test('Vercel API returns card data through the shared card service contract',async()=>{
-  const requested=[];
-  const res=await handleCards(new Request('https://shadowlog.example/api/cards?ids=12345678,87654321'),async ids=>{
+  const requested=[];let options;
+  const res=await handleCards(new Request('https://shadowlog.example/api/cards?ids=12345678,87654321&fresh=1'),async(ids,given)=>{
+    options=given;
     requested.push(...ids);
     return ids.map(id=>({id,name:`card-${id}`}));
   });
   assert.equal(res.status,200);
   assert.deepEqual(requested,['12345678','87654321']);
+  assert.deepEqual(options,{fresh:true});
   const body=await res.json();
   assert.deepEqual(body.cards.map(card=>card.id),requested);
   assert.match(res.headers.get('Content-Type'),/^application\/json/);
+  assert.equal(res.headers.get('Cache-Control'),'no-store');
 });
 
 test('Vercel API rejects unsupported methods and invalid card IDs',async()=>{
